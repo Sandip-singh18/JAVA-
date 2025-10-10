@@ -1,0 +1,13 @@
+package BasicsOfJava;
+
+public class Percentage {
+    public static void main(String[] args) {
+        double m = 55; //maths
+        double s = 51; //science
+        double ss = 48;//social science
+        double e = 38; // english
+       // double h = 97; // hindi
+        double per = ((m + s + ss + e )/240)*100;
+        System.out.println(per);
+    }
+}
