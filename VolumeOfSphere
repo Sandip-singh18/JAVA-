@@ -1,0 +1,11 @@
+package BasicsOfJava;
+
+public class VolumeOfSphere {
+    public static void main(String[] args) {
+        //4/3*pi*r^3;
+        double pi = 3.1415;
+        double r = 5;
+        double vol = 1.333*pi*r*r*r;
+        System.out.println(vol);
+    }
+}
