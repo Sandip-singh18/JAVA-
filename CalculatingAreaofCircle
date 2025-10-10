@@ -1,0 +1,10 @@
+package BasicsOfJava;
+
+public class CalareaofCircle {
+    public static void main(String[] args) {
+        double rad = 5;
+        double pi = 3.1415;
+        double area = pi*rad*rad;
+        System.out.println("The area of circle is:"+area);
+    }
+}
