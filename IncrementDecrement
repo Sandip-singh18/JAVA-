@@ -1,0 +1,15 @@
+package BasicsOfJava;
+
+public class Incrementdecrement {
+    public static void main(String[] args) {
+        int x = 5;
+        System.out.println(x);
+        ++x;
+        //-> x=x+1; isme phele update hota hai uske baad print hota hai..
+        System.out.println(x);
+
+
+        --x;
+        System.out.println(x);
+    }
+}
